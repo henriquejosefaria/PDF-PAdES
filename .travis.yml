@@ -1,5 +1,14 @@
-language: perl
+sudo: false
+language: "perl"
+before_install:
+  - "nvm install node && nvm use node"
+  - "npm install -g dredd --no-optional"
+  - "bundle install"
+script:
+  - "perl Build.PL && ./Build build && ./Build test"
+  - "./Build install"
+  - "bundle exec cucumber"
 perl:
-  - "5.30"
-  - "5.28"
-  - "5.26"
+  - "5.18"
+  - "5.20"
+  - "5.22"
