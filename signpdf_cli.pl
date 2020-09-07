@@ -74,7 +74,7 @@ sub args_parse{
 
     if(defined($help)){
         print "usage: signpdf_cli.py [-h] [-V] -u USER -p PIN -infile INFILE [-outfile OUTFILE] [-datetime DATETIME] [-D]\n\nPDF PAdES (DSS & CMD) signature Command Line Program, by DeviseFutures, Lda.\n\n";  
-        info(['-u','-p','-infile']); 
+        info(('-u','-p','-infile')); 
     }
     else{
         verifier(\@parsed_arguments);
