@@ -1,0 +1,6 @@
+projectKey=perl2
+serverUrl=http://localhost:9000
+serverVersion=8.4.1.35646
+dashboardUrl=http://localhost:9000/dashboard?id=perl2
+ceTaskId=AXPpinh_7F7SOPSsefeA
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXPpinh_7F7SOPSsefeA

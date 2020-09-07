@@ -1,8 +1,6 @@
 package signpdf_cli;
 #Linha de comando para assinar um documento PDF através do DSS e CMD.
 
-
-
 use Crypt::OpenSSL::X509;
 use DateTime;
 use Digest::SHA qw(sha256);
@@ -34,9 +32,9 @@ die "Configure o APPLICATION_ID\n" unless defined $APPLICATION_ID;
 
 #Verificação de um número de inputs suficiente
 my $number_of_args = $#ARGV + 1;
-#if($number_of_args == 0){
-#    die "usage: signpdf_cli.pl [-h]\n\n";
-#}
+if($number_of_args == 0){
+    die "usage: signpdf_cli.pl [-h]\n\n";
+}
 
 #Faz o parser dos argumentos recebidos
 my  @arguments = &args_parse;
@@ -165,25 +163,57 @@ sub signpdf{
     # Obtém o DTBS do PDF e gera a hash a assinar
     my $response = dss_rest_msg::getDataToSign(\@certs, $signdate, \%pdf, $dss_rest);
     die "Server side fail! Data to sign was not returned!\n" unless defined($response);
-    verifiers::valid_response($response);
+    my $response_eval = verifiers::valid_response($response);
+    if ($response_eval == 0){
+        die "Illegal length found on Response!!\n";
+    } 
+    if ($response_eval == -2){
+        die "Wrong charaters on Response!!\n";
+    }
+    if ($response_eval == -1){
+        die "Response not defined!\n";
+    }
+
     $args[10] = sha256(decode_base64($response));
 
     # Obtém assinatura da hash
     my $process_id = cmd_soap_msg::ccmovelsign($client, \@args, "SHA256");
     die "Server side fail! ProcessId was not returned!\n" unless defined($process_id);
-    verifiers::valid_processId($process_id);
+    my $processID_eval = verifiers::valid_processId($process_id);
+    if ($processID_eval == 0){
+        die "Wrong ProcessId!! The notation is: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX.\n";
+    } 
+    if ($processID_eval == -1){
+        die "ProcessId not defined!\n";
+    } 
+
+
     $args[11] = $process_id;
 
     my $otp = prompt "Introduza o OTP recebido no seu dispositivo:";
     # Removes new line from the input 
     chomp $otp;
-    verifiers::valid_otp($otp); 
+    my $otp_eval = verifiers::valid_otp($otp);
+    if ($otp_eval == 0){
+        die "Wrong OTP!! The notation is: XXXXXX\n";
+    } 
+    if ($otp_eval == -1){
+        die "OTP not defined!\n";
+    } 
     $args[4] = $otp;
 
     my $signature = cmd_soap_msg::validate_otp($client, \@args);
     die "Server side fail! Signature was not returned!\n" unless defined($signature);
-    verifiers::valid_Signature($signature);
-
+    my $signature_eval = verifiers::valid_Signature($signature);
+    if ($signature_eval == 0){
+        die "Illegal length found on Signature!!\n";
+    } 
+    if ($signature_eval == -2){
+       die "Wrong characters on Signature!!\n";
+    }
+    if ($signature_eval == -1){
+        die "Signature not defined!\n";
+    }
     # Assina PDF
     $response = dss_rest_msg::signDocument(\@certs, $signdate, \%pdf, $signature, $dss_rest);
     die "Server side fail! Signed Document was not returned!\n" unless defined($response);

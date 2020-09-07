@@ -1,39 +1,9 @@
 \section{Criação da aplicação PDF PAdES em Perl}
 
-Para este trabalho seguiu-se a estrutura do programa original separando o corpo da aplicação, que ficou no ficheiro signpdf\_cli.pl, das operações sobre ficheiros, chave móvel e ligação ao servidor SOAP, que ficaram no modulo cmd\_soap\_msg.pm, das operações realizadas por um servidor REST que se colocaram num módulo chamado dss\_rest\_msg.pm, e das variáveis APPLICATION\_ID e DSS\_REST que ficaram no modulo cmd\_config.pm. Adicionalmente foi criado um módulo para tratamento de segurança da aplicação chamado \textit{verifiers.pm}.\newline
+Para este trabalho seguiu-se a estrutura do programa original separando o corpo da aplicação em ficheiros especificos. O corpo principal do trabalho foi colocado no ficheiro \textit{signpdf\_cli.pl}, as operações sobre assinatura de ficheiros e a chave móvel através da ligação ao servidor \textit{Soap}, foram colocadas no modulo \textit{cmd\_soap\_msg.pm}, as operações referentes á comunicação com o servidor \textit{Rest} arrumaram-se num módulo chamado \textit{dss\_rest\_msg.pm}, e as variáveis \textit{APPLICATION\_ID} e \textit{DSS\_REST} ficaram no modulo \textit{cmd\_config.pm}. Adicionalmente foi criado um módulo para realizar testes e verificações de segurança sobre inputs recebidos do utilizador e dos servidores chamado \textit{verifiers.pm}.\newline
 
 
-Para o corpo do programa o Perl começa por importar as variáveis \textit{\$APPLICATION\_ID} e \textit{DSS\_REST} do modulo \textit{signpdf\_config} através das subrotinas \textit{get\_appid()} e \textit{get\_rest()} respetivamente. Caso a variável \textit{\$APPLICATION\_ID} não esteja definida o programa termina. \newline
+Para o corpo do programa em Perl começou-se por importar as variáveis \textit{\$APPLICATION\_ID} e \textit{DSS\_REST} do modulo \textit{signpdf\_config.pm} através das \mbox{subrotinas} \textit{get\_appid()} e \textit{get\_rest()} respetivamente. Caso a variável \textit{\$APPLICATION\_ID} não esteja definida o programa termina.
 
-Em seguida é verificado se o programa foi invocado com argumentos, caso contrário o programa também termina informando o utilizador que deve utilizar o comando \textit{signpdf\_cli.py [-h]} para obter ajuda sobre como funciona o programa. Caso tenha sido invocado com argumentos é realizado um parser dos dados recorrendo ao módulo \textit{Getopt::Long} que faz uso de flags para identificar inequivocamente cada variável recebida como parâmetro. Em seguida estes argumentos são colecionados num array cujas variáveis definidas serão verificadas fazendo uso das subrotinas pertencentes ao módulo \textit{verifiers.pm}.\newline
+\par Em seguida verifica-se se o programa foi invocado com argumentos, caso contrário o programa também termina informando o utilizador que deve utilizar o comando \textit{signpdf\_cli.py [-h]} para obter ajuda sobre como funciona o programa. Caso tenha sido invocado com argumentos é realizado um parser dos dados recorrendo ao módulo \textit{Getopt::Long} que faz uso de flags para identificar inequivocamente cada variável recebida como parâmetro. Em seguida estes argumentos são colecionados num array cujas variáveis definidas serão verificadas fazendo uso das subrotinas pertencentes ao módulo \textit{verifiers.pm}. Adicionalmente é verificado se os dados que têm obrigatóriamente de ser fornecidos ao programa foram dados como input pelo utilizador, caso contrário o programa também termina.\newline
 Caso o input passe nas verificações de segurança, é dado inicio ao processo de assinatura do pdf recorrendo á chave móvel digital.\newline
-Convêm referir que, ao contrário do que foi realizado no ficheiro original \textit{signpdf\_cli.py} as verificações de segurança referentes ao código das mensagens recebidas do servidor foram realizados no módulo \textit{cmd\_soap\_msg.pm}.
-
-\subsection{Módulos}
-
-Para instalar os módulos necessários pode-se utilizar uma ferramenta chamada \textit{cpanm}. Pode-se descarregar esta ferramenta para linux com o comando de terminal \textit{sudo apt install cpanminus}.\newline
-Após instalar a ferramenta deve-se garantir que se têm os seguintes módulos instalados\footnote{Nota: Para descarregar os módulos use no terminal o comando cpanm install 'nome do módulo'}:
-
-\begin{enumerate}
-	\item Crypt::OpenSSL::X509
-	\item DateTime
-	\item Digest::SHA
-	\item MIME::Base64
-	\item Getopt::Long
-	\item POSIX
-	\item List::MoreUtils
-	\item Carp
-	\item FindBin
-	\item IO::Prompt
-	\item REST::Client
-	\item XML::Compile::WSDL11
-	\item XML::Compile::SOAP11
-	\item XML::Compile::Transport::SOAPHTTP
-	\item Encode
-	\item Bit::Vector
-	\item HTTP::Request
-	\item HTTP::Parser
-	\item Log::Log4perl
-	\item LWP::ConsoleLogger
-	\item strict
-\end{enumerate}

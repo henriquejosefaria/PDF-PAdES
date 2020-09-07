@@ -10,6 +10,7 @@
 \usepackage{verbatim}
 \usepackage{float}
 \usepackage{caption}
+\usepackage[hidelinks]{hyperref}
 %Path relative to the .tex file containing the \includegraphics command
 \graphicspath{ {./images/} }
 % Used for displaying a sample figure. If possible, figure files should
@@ -34,7 +35,7 @@
 \counterwithin{paragraph}{subsubsection}
 \counterwithin{subparagraph}{paragraph}
 \makeatother
-
+\hyphenation{ProcessID}
 \begin{document}
 \input{title.tex}
 \newpage
@@ -45,10 +46,11 @@
 \newpage
 \input{vulnerabilities.tex}
 \newpage
-\input{run.tex}
-\newpage
 \input{testes.tex}
 \newpage
+\input{run.tex}
+\newpage
+
 %
 % ---- Bibliography ----
 %
@@ -63,6 +65,27 @@
 %\bibitem{ref_intro1}
 %https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
 \bibitem{ref_intro1} http://perlcritic.com/critique/file
-
+\bibitem{ref_intro2} https://github.com/Hack-with-Github/Awesome-Hacking
+\bibitem{ref_intro3} https://metacpan.org/pod/Date::Manip::Range
+\bibitem{sonarQube} https://docs.sonarqube.org/latest/analysis/overview/
+\bibitem{perlSonarQube} https://github.com/sonar-perl/sonar-perl
+\bibitem{lwpUserAgent} https://metacpan.org/pod/LWP::UserAgent
+\bibitem{lwpConsoleLoger} https://metacpan.org/pod/LWP::ConsoleLogger
+\bibitem{codeSmells1} https://blog.codinghorror.com/code-smells/
+\bibitem{codeSmells2} Martin Fowler, Kent Beck. \textit{Refactoring - Improving the Design of Existing Code}. Addison-Wesley Professional; November 30, 2018.
+\bibitem{develCover} https://metacpan.org/pod/Devel::Cover
+\bibitem{perlCritic} https://metacpan.org/pod/Perl::Critic
+\bibitem{perllist} https://metacpan.org/pod/List::MoreUtils
+\bibitem{ioPrompt} https://metacpan.org/pod/IO::Prompt
+\bibitem{testVars} https://metacpan.org/pod/Test::Vars
+\bibitem{livro1} Peteris Krumin. \textit{Perl One-liners}. No Starch Press, Inc.
+\bibitem{livro2} \textit{Perl - Notes for Professionals}.
+\bibitem{livro3} Peter Wainwright, Aldo Calpini, Arthur Corliss Simon Cozens, Juan Julián Merelo, Guervós Chris Nandor, Aalhad Saraf. \textit{Professional Perl Programming}. Wrox Press Ltd.
+\bibitem{livro4} Tom Christiansen, Nathan Torkington. \textit{Perl Cookbook}. O’Reilly Media, Inc.
+\bibitem{bestpractices} Damian Conway. \textit{Perl Best Practices}. O'Reilly Media, Inc.
+\bibitem{testelectro} https://metacpan.org/pod/Test::LectroTest
+\bibitem{cpanm} https://metacpan.org/pod/App::cpanminus
 \end{thebibliography}
+%\input{anexo.tex}
+
 \end{document}

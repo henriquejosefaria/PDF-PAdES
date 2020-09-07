@@ -1,0 +1,120 @@
+# Fri Aug 14 12:16:26 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any pdf given.",{"x" => "\b"}]
+
+# Fri Aug 14 12:17:29 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any pdf given.",{"x" => "<\34"}]
+
+# Fri Aug 14 12:26:12 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any pdf given.",{"x" => "\22\ry"}]
+
+# Fri Aug 14 12:26:54 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any pdf given.",{"x" => "Y\16"}]
+
+# Fri Aug 14 12:57:28 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any number given in the range 900000000 and 999999999 and 0 for any others.",{"x1" => "26150249024049298786881599033429806916170","x3" => 362191049,"x2" => "57240674549604404976918190371474"}]
+
+# Fri Aug 14 12:59:20 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any number given in the range 900000000 and 999999999 and 0 for any others.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Fri Aug 14 12:59:49 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any number given in the range 900000000 and 999999999 and 0 for any others.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Fri Aug 14 13:00:44 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["my_function output is 1 for any number given in the range 900000000 and 999999999 and 0 for any others.",{"x2" => 644567289,"x3" => 285313729,"x1" => ""}]
+
+# Sat Aug 15 00:25:50 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_file's output is 1 for any pdf given and 0 for any other type of file or atempt of pipeline",{"x18" => -990,"x2" => 5,"x15" => 297,"i2" => 8,"x12" => 0,"i1" => 11,"x3" => 18,"x10" => -1,"x1" => 2020,"i3" => 11,"x16" => -167,"x9" => 249,"x13" => 182,"x17" => 517,"x4" => 0,"i4" => 15,"i5" => 18,"x5" => 1,"x11" => 895,"x6" => 1,"x14" => -223,"i6" => 10,"x7" => 9372,"x8" => 0}]
+
+# Sat Aug 15 00:26:33 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_file's output is 1 for any pdf given and 0 for any other type of file or atempt of pipeline",{"x16" => -393,"x3" => 16,"x18" => -89,"x13" => 676,"i4" => 11,"i6" => 17,"x14" => -995,"i2" => 12,"x8" => 0,"i5" => 16,"x17" => 893,"x10" => 0,"x9" => 932,"x1" => 2020,"x5" => 0,"x2" => 1,"x11" => 196,"x15" => 872,"x12" => -1,"i1" => 12,"x7" => 3474,"i3" => 7,"x6" => 1,"x4" => 2}]
+
+# Sat Aug 15 10:13:07 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x1" => 903166822,"x3" => 87205201,"x2" => 889}]
+
+# Sat Aug 15 10:14:08 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x1" => 193603440,"x2" => 381,"x3" => 70899606}]
+
+# Sat Aug 15 10:19:05 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x2" => 40986,"x3" => 174134,"x1" => 525808556}]
+
+# Sat Aug 15 10:19:44 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x2" => 87083,"x1" => 662672425,"x3" => 805277}]
+
+# Sat Aug 15 10:22:43 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x2" => 72348,"x3" => 937105673,"x1" => 468295}]
+
+# Sat Aug 15 10:24:07 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_otp's output is 1 for any otp given with lengths between 4 and 8 and 0 for any other lengths.",{"x2" => 68486,"x1" => 986728,"x3" => 637034318}]
+
+# Sat Aug 15 11:01:34 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:03:46 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:06:19 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:07:27 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:07:35 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:07:47 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"WARNING" => "EXCEPTION FROM WITHIN GENERATOR"}]
+
+# Sat Aug 15 11:10:07 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"x8" => "rydsgire6knmz","i2" => 5,"x1" => "yu40nbe7","x7" => "96nxkho6q5a0","i1" => 2,"x6" => "g","x4" => "gt56","x2" => "n6okc0r0j","x3" => 1,"x9" => "na3a","x5" => "2au4o","i3" => 8}]
+
+# Sat Aug 15 11:10:50 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and 0 for any other formation.",{"x4" => "0h0z","x8" => "1w5est1w1l66m","x2" => "lp6o3krct","x1" => "u4t345jl","i2" => 6,"i1" => 2,"x3" => "l86k9u2","x9" => "oeo5q4ivbm8","x7" => "7j1y6y4wvn9f","x6" => "c2","i3" => 9,"x5" => "kot5s"}]
+
+# Sat Aug 15 11:44:59 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_response's output is 1 for any response given with length 560 adn only containing Base 64 characters and 0 for any other lengths or characters.",{"x1" => "mk9GEpjZiL1ffZ3oVX9KRTw5oCsblNovUR6EzMjtaAx9tfGOfI/VR1g5hYJ2Ta/MWGcBODEoOsa62EKTTmP+Rx1/hBIC045QUvNbRLJWgAEYFMhOy6qxNbQ8XKMIj1Z7yjXULcl5DBCc99pN50gW3YnKQz8NltVBz+UMXjDjf5hRSRh6lcnf3u4yXiwv6qdJTQHQb8TUClNzhvKQvwrL07JC6fLOKIa2P++a49BQ4QCDrJ3vn0x1wMIUXgLu6XFc6/esO0t4N8kUE73gQOyfmmqstT7hcreI8aFdMHMJVKj4GAbx4IDgEagmVHQYqIdrIIF537OmwyIwTkStyD2glHvm4IlLMvEQHH5lMzwLm3RhOkBEvLOBXK6aok7JWIsTXTI0U+JSYnvqlERCT5T+12w4maUYlxxFbGXpVzIOeeU5SB95mfUOL3Pboyp7HfkEgOJSq1zH9Vs2uLtEokIN4zpEMLtXHwLCpGjIUjMGPjdx5Urgf5IV6T8WkDbo4My7BIUraz8GktyaBsGB2Q4gqm4weeDiv+Ks4xMZPPzw2oQoboPx","x2" => "+MmLRnmmCxsthUYrcu7panAZDZaillUGbo02X+Az2NvJOcnjICQBNrwQaTxDHzfwNwJAB08I8ZRFeBjX7KuhbrWUZ9ctaBQTq3GrS3ojcj7YfRbDVkoAbY8ri/By0qtHhMAyeOtdNYY+tmSOM5iD+a0hsxIB3mCf3fjarr31tNFx1iEVrMr/bojrbh7NJAX/SjeF3Bwh0kX9eq/DABqEMp5YWp0Lyc9Q+93qPrWkGoI467ZN+Y7pV1L8ckRp9pH9Ter1/SXGxJqG8LF1jj1jgnmlGZ+R7jITmzZnqoEZgPdHrp7HYTBYLAd/Y5ioyGeO/MY5PVvC1lzo4FD+SbnFCvil5JZa1H0i+YWnP98fJii7e1IKkiGckkukBBChWBN3U8Ho0LO3bskvTNgQdLdop3bN","x4" => "DTB/t[dyHe83^+kAWH0ZbiLanJ9+/F[LcR5ADedjzU^xhN9s]8XKF1C0n8wMcyZV[i40]S7eilZCZWYAi2[0sXfv^FvXpdxykv/V4Hpul54GVYODe[ZPCK6RjOF5lx4BfPHR9OSnL[u9^tgEt3o6xQoq8FmAPnyQK36X113]8gR0UWatBdJon528FHJRfg02gtkHTqyEVbwJ7YNHvr[nndam3oxAHbQ+2XGrfYttJ/ZOVL/5VnT[9o+FUScB0[CEZeT6Wg[GoQK2+/IOPTNxcZI/J+/VlnDWwiGLmBfY7R+Pn4PaVD29K[b7eUFp1cfHXzOGvQFXY80U5vvNqUtOr2CL8eKJ7+^l2DErl9J7dXGPzBVAudyLJI7kDqBYvUyH9pAK^Y03BvlIP/o05HOIDSf2SyWt8BZYVIChRIC/pjT[rFO6qJZ6U7JJ/+8]R8fOREj2WI1oV5l5/TNE0e[nKKEA0tJXkNZWcn+u/SZIfYBlxxRIe0^y6+lw1[T2hXQT1eLOxbv5VxnodXbbRbZrKx1lVQik6OVkfIJpS7n3RUgctJAI","x3" => "a8ndBz5Gpq/BEpjEoTnJqAVVSJLnb25PJZ8eLn4WCnbz0jcy9EjOcY5JsNpjHyjkR77G8oy2TyiNK4wYZDBqL5p8X6PIGt2zm44h1o7cTYh8x63bPq/yX+ss1I907ppNJRcIX+7LvJG6EwE7K2YBeakl9CxJw8wRy7YE6VhYuBCym4uiOq9dPzeKOdFrUI8jls28TB3pofd6nTDE5ZR8q5LvmlgR01wVRE0iw2C+xMKuQ/wW0qUZQjBB+imHPiqdZPbf9x4cccnr5k0Z8AETAvUZw0giDHECtw1P+0wDn75BJnvgoAVzqW7UFn9IDLUNJJZBkMbtCShdrbOCPZF5lBQWefUdVjL2DhhnNKqqKuz5G35FmadJD9FTvXX6IF/k8ASqP9hLP+Xyo0mr6S3SJha9sDngM3LD1MCkWEmVZSfDhX+Bl1Dt6TxP3ckZ+4hSmSD/qjmL/p62caiIYb54ZPeTEy/pYyoBEfwL9hkz6LFJxZLorsnQiNnoedp+rIZsm4uBghewuoZenAX5G1YRVdtF5tQToHeL++ToeveT3RQC/4Wd4"}]
+
+# Sat Aug 15 11:46:17 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_response's output is 1 for any response given with length 560 adn only containing Base 64 characters and 0 for any other lengths or characters.",{"x1" => "u0qhf7oBG7TqseIo0khv2Yi07qr5CSfrAtAyIu+LNttj+Hwy/4fRlyow6Z1cKUyJRJTbFXuUc5x81ByLaNH0ZRFXgx2711tRE0F+OOo0H29jiVqhHdZjgeJCWXGZOUho9yNRZzooWr9DH3JdZCV2RQzu7UwmYwzqvZ2v9uPibr8ATh3px+BtpVruHrVql89q3raW8OKsP9/CNAsrpe+UL6Rh7O1ckpAsn2Y9j6l9ehEgrhDQmqD4SpCI1AQgp0aX5SlycEyT0YQAxefbSa/55H8ZwiXQAohgHYWg+yQEN0eNkwMH1Zg2kOE+eubh+AGmhNo5xJCflbFYEtVdAXCMqBCZWR7We3CXlMgNfNqIItlbiRtrWdKWR7J7689Nssj/S8bB3pQIJR0k4/JsqxgFSEQhAfGYtkZxry10LeTusUZagVMMcuT7zf+Hh2b1acpeC8yChdiojc918IjkGpL5DrXnAvkVd0d373Y56fbcvDYUhByMqRnSgOrI9EqsaRVUF3x+Os7DO8TpQ9ymJXVogUmYlqHr/ebH/62A7h0FVqjl6PkF","x3" => "mLcRYbYbG7PKX+eM/yFArxIVMWtOqSicp0zrbJGk+9JlTeweya+IQG1UCCbCk0848nAOiAna3zjoyjzmYtJgGNmkVreLNnlKHJdGHmXaBVP+c2/4o6xo68qj1ETYesGSKk72ebuBrbjq/WMvaOhV+GXwBRUkvwQZLdf2zc8Hm4CzRC5/qDvc1IjcUO3+ppyGrEwJaZHOBuQ3Zdxs4NVaaMTe1/qm5DFA5Cf5Ob6IJFHJw+FlxmClpd8/nDedc/5LNePyfV1XeyYl9eGb0gefwddUZoBKMc9r9fNPuABKeVs4QdLNosRvn+xrw+5Wp1T7JBdA1xJJ9VmQF9ScqB84+ExGkhaf4xlh/VFvxtse4vZXhTlH/5LHY6ZMhrubVIgPok5b04y4zPwswWOn6MWhue4JT93P2FzBSDER60YLprME6xHIO4yga+mes/Tn6SRNpuANffNRhadGn0GOagb4C+l6Ynlr9YuLTOm44kADg/jPIoEphAtt9LGImKbNlI/wZJkfOyg0b14l4FQXNcR5Vk0BnvpRPhs2C77i56sX0a7SnbvDF","x4" => "YyDaPwY26Fdrmp7CH8C9C/]AFC+9fHeUld^7a4CMV/[4YljJp+hVawIwjjp3SEjKF6Vao+J]1ZouId/iTIMS49BxjrA0XfRMAjHLb7KRK9VBNeINyA8csAbgMI1ux^EE+Szz8euo]43aD^^6/97ydZza+YGIsOk7+y6Va]r7QChCeeDrTgs+aLWQyS0pY4Z3c]s]9xdFSO2DmhCjwPhKKCkFQ4KL4uDaNGeemX7YaEQ/sv/+/4IXmrd3z2jtoqsYMIqQhdrDNfS3/fx1ZJ3zFDBymrLcGUasZTtVdLZ9]sD7g4pAluxG9tibB/teTmZ/oPsAij8oDxoT6hUUMwsXvM0fo04VHLlzGp658h1Zt/D7UoMQM]fDsWkSS76b0NvwglOoWssF98peys1^6[g7vujD03KrnHetKiCY/j^9V]EPodyA+QqUWGn6dLCYLufPTla]AFwFHk^PvUnW6KNN5oG]jiKXbRji[d7DTTDVIkJ2a5BOwqxXCrwEzAlGtrBwIoA2VaguKVIEwmFYm8g5o41Z^+TVOGWHtRbo4Q+S8JU78yFj","x2" => "UbMHnicUYhFWQYStGOixgETYri+z3yIEzcJj7dyJ0d5zRJ5ouGMgG8Fzqsex6cNbcJYohzdg6PVOPYe3hdMuHjuvsZav0lfAnRI7ntny7lUAI+CBTN5HPSFAC3ySgA48G6NOEMSqXWX/2LVYpUnPJPzcVngc/6L/6K66PsU8LGz/ECynJU6Hyw51Mc61i1CTQwzmljuWNy7f7VM2xeiMJSOLIfeGwMhQJpyE00FgtHQuszr1kekOL1xMHxUKvHkyeaVd+GcN1Q91z8Ann/BdXtN"}]
+
+# Sat Aug 15 11:49:00 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_processId's output is 1 for any process_id given with the propper values formation (8,4,4,4,12) and right characters(a-z0-9) and 0 for any other formation or diferent characters.",{"i2" => 6,"w1" => "z3osi4ro","w3" => "oleb93ftxrkz","x5" => "5zutukb","x9" => "4kk6dx2","x1" => "7otmgwik","x7" => "muyq9m0p1ndn","x3" => "n3k","w2" => "t898","i1" => 3,"x8" => "wy3kci7j3lofn","i3" => 9,"x6" => "p5z","x2" => "beex3op6j","x4" => "earbu"}]
+
+# Sat Aug 15 11:49:00 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_response's output is 1 for any response given with length 560 adn only containing Base 64 characters and 0 for any other lengths or characters.",{"x2" => "PgBycOo8XDgRN7jBZJNpPr29r8U/eQJOa0n38CPdWLEUL1JTGG+2bbWXthGPwWn04BooitdNtMfIxTWRGFy7WjbybY+/PiDnxTyVQYcOQ8AUQhTUmytlZ0cQRz+4/VO6nSDZA61uwtuU9xhIYS23Y3852qn72obij2uT","x1" => "DY3qN8Z3IQ5e74Pn16rUifyuiVlOc4Gc5msrhN4vut46G8l7N+ZZGNG1NvZHjK3o0SNNn2pb7sS1+JGyyQ8VKOb4Z1W4bsibRoHmX4/zGWLWgzytk1fY8L5XgWWG2Kb49ZHoavYj79kn1ztY5JNdJgZD1UqTVELbpHZGjisg6q20Nivd4f6TmuQSioGDmZ//ycNQdDpZzpxc7Jk/Mt8+CdwKDVoMOD5V5hGk3kdGjlxVzhslYrz5G4hDr2MlrMcUIjZbCdvQFVUsMpuUDjasBSPNcc6nKAjwtRYGdEOS+cdueniSIGg+4hrrpCp0QtdnWqktG955Hh93S77zBiDjs58MQ0oaM2/5Vs/X4t4E3FUJrzFe7h33kTDfwLzs22azXImYntWMxSypXKOpVqzQE1di0rOxo+KDNaup93X8cQoc4HlyEPVY/lXKnPt8xitzIqqFUhGouRYu1PUH7TVrxbyqjMGSn9NvOvPOYVkZxXC5/vm7ODL6D8I+ABeBm2hWSbs/lUsr1Djdt3/f+poWhCB+mfDDwl5xtiQ1tqNXfUJVjVAT","x4" => "nE^mCETKQDpPUEzk0HL415ev/iMZqfRpeYPeQxlN2YruMOvxlCTVZzn2QOxWVBct6c3F4sPgae/T^Fr0skl1LWJlbr+P10qjkZyZ3uH]dHV6jhrmtkF2fS9agnXX[PRiYITvXv7Jk7fng6gDNYxCSnNCreJw67idn7Ux03d+K0nSjwiUs5Jzu2e1tzQDu^fMQVbIA]w^k2Cu6hAiXTJY15kQKGa/L1sZj7Xyl^YgbeBqRQHRQ801z^Pb[mPu2jn9tsiYYSsc7wMGa0oXnqBUto9an44Bldlsa^xtSvHGPnU0ihItxL1o6+y^0QKvGgjL[pnt^4G7HSs4F4mtpU9pf89JYomk5aySGblThy[Kx]ThL9K8WSh80Oe8l6IGUaWNMynd0uMcsw7GTGqHI2XtAkPvddzxnLZcVW7C+gDUhhpDzmr3kUep3Rr^2x4]Xjjvdsg0LKJ4Y65ZHo]TEjymSd6YyrbWXM/w8Ch8pkHS+rAMjXixQwjgkpfpj+m9kLjylHy]X2PYmwa+4auxQ0h1bSz/xR9SfxF^qwCh^^MM26OOsSaS","x3" => "wi+f1qDMEPmSZVAI12/jfGDkhrPRGIKWd3Upf5Jd5Sweq4hs6ynnLl0TPht/ujm0oXjQk/KcoHJr9bjefMapluMfTLOjdYs9gvsaZYye5rC3LJkmwdPLoexNVXxKFP5S8znNURauEPu91SagPir+pDz/y85yay8u7s7H63s+h7S1ySSUSLDFdSoDk6RrJzzPt2NQxEsHMOF93/7plv6RBrHakHaQ1NwJaGKIUrXytANHv78pmYSF02xLRTd9dfc+y0TNo7sjQ5dSwBKk58sZD3r0WYTf+HaS9yr9Z2MNUafS/o7ccJXpQo9CZtCb7Y6Hfvi1S7AuEdUFvgOVbUSa6Sa0YWbuVNTPWnpiAUVUrlH30XywkvEr4FJuj/ZfrUV9O8RNlLl7QYUOvjbn0f1K7t1z8qlY4baGBXvRWcu3pKAbH2sSVmIctKEoSOBjv1z8Sa52D6bl2RociHIS15dIzYolbnpCHGS65wF6zkarqk6yftSBkbDwHRnce1N/jvQmFhpAIJgaNba6UOMMc8f+WYMuN60YScHTG0gi/TD9S7q5a+jNn"}]
+
+# Sat Aug 15 11:51:34 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_response's output is 1 for any response given with length 560 adn only containing Base 64 characters and 0 for any other lengths or characters.",{"x4" => "&Q\202K]TGO']GGE\\\272<X>F\202G\"\@%:\302[F\342]\"\302!_\202^=~GUA>M<M<_H\302'>CS?|L~~<K.DI\"PDD>M_\342;F]=QVH\302:B[RE<:U\252DOVI\252B\272HXN\254.S&\342\\[\">TOGU;=V!FP|\\FK]:L%Y;WO_QX:BO&YEO[TOH_~F\202~;|_GB?B;=JOU&G\254^?~.DT\342\252\272Z|<\\QT\"AIWGS\272WYN.C,?OB\302Q~\342U<D=\254CLX=\@MR^M]Q=K,,NS;X<V\202|]H~U,A>\302\254E&\202&%E\202ABRD;?\@H:J?\@R<UTHFIQN%I%H_KC]:F^.:S&XCNS\302\254BV\254Z\302:U:B&KI\\HH'Q\"\254\254_PF\302]C'[\@!=QF\342D[=I,\@SFXI|.C\302~\252N%FL\342JN\342\"\342BV<%\272~AKKDC^GFK'[ZWF,NH|MFC\342&VD\254|\252?L%?]A^ZW_CU\342\272&\254N\@C_:T\342[\@SN[^<&,%WM!\342:OH\302WV]O!HREC.!F:OFH=%\342;UFK?'\"\@XMXTFFG\@V?\@G\254>.!]=BG\342XPY=C?>VPPCJJ?[\"_!><MJ[\302B\\KNOM\272M\252PW\"A&V'\">G^K&LK,.B!:Y.\"\252;',P\@WH!WLP\272=X=\202Q;\202\@T\\>QN%&_=]UHGK\342G","x2" => "WOhvFtw0RKWRUdnQ5NqwyNv2SzSEC8K/8kaglQrQYhizhY5KZ1VBUyb6CSSbKTkdpA04YjuAdOD8gzuGtgFB5KtL2NTk/hKGfNKuJDBfLTB3HtMjxrcMhKyPj0ejE+qYfT6DHEKahx7ktRWq+u3LQR8YyeJZBRfjmPL1e9vebmbUIAzV9TDSMJMtnQKqdU","x1" => "GneeqELjRWjmCQ2alBqE2lfr6B4EyRmxrb/BSt5oZxj/DcMosKfqeO7l4UWa3rO56LbEZ/5EyMKS9hYgv+NcAZZpxtmyB7ywZHIYl3zoPwy350Lqzk2WaXaiegvOHLV+X2WGMH4Cyg1XDtwhyHiQv4VT4+pXso+11DI/v5xURPLFHYybTBkqjwTU7rkht+ZGRNf9SkPhdKFgYN+C6TvuxaM+fMrWL3Z4rGt0GO4GddORiiVqQNTY2/1Vp3kpCMO/UP6rPV4lrySoI0M4J0o/aYdrQTwitB0JXskuaZIAFx9+5jsR9JD28r37ekD89rNfEQ5M172oCMVf+HFECcK6Y1gFdS8jmtQPIv7IaPzSWWARvypStlMvcjzNfkFn5U48YvCWhoaHEDAZ6oRxHiJn/TVx3ISwqIqf1ixGpGwDU/fRcSiRWkvukz2flpCdk8CFAd91fetb3zzUz/WANANpofd2SNpT6KuVZMwCkagdEjvr8mH1lW89K72wdBSSbrnFf3dgtYu9457Kp4QNLK9Z/xCN2ETih4eF9BCN0ar2EuxDh1of","x3" => "LUKJcJn64u1e7ftD0dsS04H5w9SUUwbZEABWXEnWYgunR1y5CnwfiOBnwpVNuLpbCgEcJ6uuhFPdzOIU53Sv/+lJ1hXNcILlYhc6hFFn3HRat/3XhNetwnVn2n9R9Pss/oGDmbXw/g6d0Ad8tt6MqtyDWxY/F+JHslG4OOrHePPzfd/qdrOH6iXcLS9CQ27KFjOHKVcg+nEY76DeGlm6A7OXVW9Aw5oCbgYj1rb1XeHb6k1QLjH/+oyvZozhUg5S/gRnGM2HnrO5yUoIfBITwSbSQeWnMYXu4M2wACyyNwlGaekZy0xdBbiDtWXzArXAZSKPHUEJ7wasQF4dggF/cu6mL7i87YrjPCne2BLFdLeczPsTP/G0t7zdQgnBzEiLd3GZAXbmrNFTOsa5O+htDvg9gnUTL478gHbbTiu4DD9weBKaj9XGbkao7eTguw1IXXQlk+POlcm7kMu/evNRAybo2q5mksXtMnxDr6NOcUPDVyR5TVc/R7VAbDBKjnvlrvn82A+Bk+wIUezif2DBa8ODSjbp+QxQ3kqrVjSBwJAgLORtV"}]
+
+# Sat Aug 15 11:51:49 2020
+# perl v5.28.0 on Darwin x86_64 18.7.0 Darwin Kernel Version 18.7.0: Tue Aug 20 16:57:14 PDT 2019; root:xnu-4903.271.2~2/RELEASE_X86_64
+["valid_response's output is 1 for any response given with length 560 adn only containing Base 64 characters and 0 for any other lengths or characters.",{"x4" => ">S!_MN\342,]Y\$N]CPK^&_]^JJ\272,\\\\IMR\252T%&V\"\342\342B%M\252>UMZEAQ\252\202\202:Q\@\252DRT[FDJ.S\302D|K,SQ|XTRM\\YM\@G\342[PXUW!IUK!X\$\\:;=SHST~\272Z%\@\254?NICN_P\202S\$R<\272\202\342F;DA!%XFBE.WC=GS%]\\=~\$K^_BMIT'\\K\342CR|[AW\254UM_>&Q#EN\"\302]Y\254K['A='^XI\302HEQKA%QBCMT|HHB|Y'OJ%\"'R&'O.<\272:Q=Z.;=B]A]~U?=L<X[\342U>?.,!|~?%EYX&T<\302L;\202\254N\254\302ZM<_,OU\254<%?HEJ\\#BZ.<OVQ]:TP|&_SHXM\$\@!QVT\252\\<\\;\$C%\\Q_^\202YOL\302'\272\254\@\302~[\342A\272_>>C\202|VQ&W\272VL\@QCZ_.RR:^>V^I\302K\"\\<S=WEP\".O,X<C^QGG[>MO\252\202\\A,]'^F<HINRF>><[\252CMQQ]^.VPR[\342O\252C\@'MUPHI.UQ\$I^>'H.IFL&QZ=%O_|VQFXP\302\254X?Z\@D_\202\342:R=S\302'_\$\202:;P\342]_\302_VL&KJ\342F,|AT:TDNE_'D\254\302YVK?_\"AU\"Q^[#,#<'\302YIL.VM#PWN[FUL&_W'Z|!;!OS~D&,!TA:BW.M[:&\254<|\@M","x2" => "me+uPJUeUkZfa84+lLVRW7qPxxaXcjQCCYw0E9Lojf1QgfmTpd8f8+aJHPFhETKDEmVZCHRSlFtDrz0/XVH4lsQj7wmbZJoEoIzZHBEe41r3cBAo0wziNTNajhaoRtFDSs0nuevHSVLFlDuU0x0oFAQMqXtDvn1qXrAZP8/xFnMcEb/+qOv9pAaSUS3RqVei0SNGaM2IpoalvpHjM69Jds1VwNpZwt9GlV9bFAD154VupocoX1cdw1aE8J1hM9DoHR8PmZpLE2YrHzrUme/ODA8Pafbxbk/343+Sv3wnTrDRZUCeyWcxVeqCO0r7tQ16QIgfR9ovwrPFM2NYUBDYP1jdv2ppyRpoZlOC9DW5rRSftl2cft+Y4CQWjvQKRwFFhRUGZRIEdmfAejESFnn3/gPQrlCtU58E28EU182bIaLHzi/xQEO5RfrCXj3hy/BSwxh8gBgcl/QMFLyYpG69+NUQG0cPzz9eqUB2bwaibZf8hcBfx3IIX8x","x1" => "34M1Tw/v5uE0SJ7VeBv7JTLmAo/02Bt6Q+izb9pmqiUt9XKFaOeVOoMfXxpjP0LW4JFvGIyj48pRKrJLIFeTDImbyKqMEShq8FjRIsDUdKCnAuMMQc0ykNKqhU+WuhbvUxGMJjueBgoSYk3VUESC6mb1C8E9vOGWvz3byJ2ivt2qnc9axkh2Pk4JL9y8HAFKueHigxC9qz/z1+/D+aelDbsQkwgeMIQH++0HmYi+v97dLAVTTyo/n/Mg5VYgpSQnsbje7iE95X8d7GxhSuBcwaMAcNIb6pOF30QeB1DbqgOLOh6yx3cJdMEdIogmCFEUDFQfckK5hDQtLvKV6uPGRbXXSmW1jr0SCZ1f5kqlQ6rvq/qw0RdkOEawzhMWBIuuZVVd/s7K7xWU8AzGVTeMuvbUwYaA0+IA+E7s6W+8p/4XW9wzdM4ezcoLsu6cMjgA1/cl4Z7p8Pd78k/bZ9M5ejv/TFdje4CKs5OMBgShXq+bwzfTfWUYZqp7tMScFiPjJiQajjV+POtKVW2D5lP1oxXSLnnGezcHsSv1XrnbrApXGuAv","x3" => "VHYSL3UdeOOz2ttt6c37O/f/FmzMaXZyeJc7/TzuMbHdV+Dvqlhc0Y60TkLX2YfCRz6xWHoLaj5V0w5LO/xDKTc2chm9CB3zX5qTOaK2hX+uRjKbuayku6mRxUKxlI1MbyG2/OFvMFSL0iN/p2PNSYYB1QDP6QiSYRXjauftyk7fiBW53k0APTqOsNIVzm1+AvlLu4in6Vg+rrAhrAYoQ2acOh5RmE3zm8a9Hs/JrsXgtVgBmoM4Y9BYyrhVD/riL0DNdlKXzzcANh1ciWbpXjHVBw4LaEbxrDTQVjPU00uhAWAnxnkPbCnJicQ28FiJoaR0HokSKB+xuP9J7O/jLPX1CLlhVrqx8c9yTodHvwYcO5yoTnvqIN/1anYqqCtMTdsv/qHIEwmxmR6fd7ovSVfsCLqK6m2RG/Fejx/MtKXzEeyL0tW/PtTXOL38Pkoul0KOrRdQ8nr/T9p9m827cguez/bVsgxbfxKjZPnHUcqdvzfH+OJ+F18o+yz3xdVVec5Pk+eyvwx+bmncpCp92lyxcyfIRIoSaFdvelSy8kwgqFyok"}]
+

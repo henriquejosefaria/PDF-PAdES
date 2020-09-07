@@ -20,26 +20,29 @@ http://www.pjcj.net
 <h1>Branch Coverage</h1>
 <table>
 <tr><td class="h" align="right">File:</td><td align="left">cmd_soap_msg.pm</td></tr>
-<tr><td class="h" align="right">Coverage:</td><td align="left" class="c0">56.7%</td></tr>
+<tr><td class="h" align="right">Coverage:</td><td align="left" class="c0">36.1%</td></tr>
 </table>
 <div><br/></div>
 <table>
 <tr><th>line</th><th>%</th><th colspan="2">coverage</th><th>branch</th></tr>
-<tr><td class="h"><a id="L40">40</a></td><td class="c3">100</td><td class="c3">T</td><td class="c3">F</td><td class="s">unless $DEBUG == 0</td></tr>
-<tr><td class="h"><a id="L84">84</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $hashtype eq &quot;SHA256&quot;</td></tr>
-<tr><td class="h"><a id="L109">109</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $length &gt; 3</td></tr>
-<tr><td class="h"><a id="L133">133</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $number_of_args == 2</td></tr>
-<tr><td class="h"><a id="L163">163</a></td><td class="c3">100</td><td class="c3">T</td><td class="c3">F</td><td class="s">unless $DEBUG</td></tr>
-<tr><td class="h"><a id="L166">166</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
-<tr><td class="h"><a id="L190">190</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">if (not defined $_[2]) { }</td></tr>
-<tr><td class="h"><a id="L196">196</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless (defined $_[1][3])</td></tr>
-<tr><td class="h"><a id="L201">201</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless (defined $_[1][10])</td></tr>
-<tr><td class="h"><a id="L237">237</a></td><td class="c3">100</td><td class="c3">T</td><td class="c3">F</td><td class="s">unless $DEBUG</td></tr>
-<tr><td class="h"><a id="L239">239</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
-<tr><td class="h"><a id="L294">294</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">unless $DEBUG</td></tr>
-<tr><td class="h"><a id="L296">296</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
-<tr><td class="h"><a id="L347">347</a></td><td class="c3">100</td><td class="c3">T</td><td class="c3">F</td><td class="s">unless $DEBUG</td></tr>
-<tr><td class="h"><a id="L349">349</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
+<tr><td class="h"><a id="L45">45</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $DEBUG == 0</td></tr>
+<tr><td class="h"><a id="L91">91</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $hashtype eq &quot;SHA256&quot;</td></tr>
+<tr><td class="h"><a id="L116">116</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">if ($length &lt; 3)</td></tr>
+<tr><td class="h"><a id="L146">146</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless $number_of_args == 2</td></tr>
+<tr><td class="h"><a id="L174">174</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">unless $DEBUG</td></tr>
+<tr><td class="h"><a id="L177">177</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
+<tr><td class="h"><a id="L201">201</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">if (not defined $aux2[2]) { }</td></tr>
+<tr><td class="h"><a id="L207">207</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless (defined $aux2[1][3])</td></tr>
+<tr><td class="h"><a id="L212">212</a></td><td class="c0">50</td><td class="c0">T</td><td class="c3">F</td><td class="s">unless (defined $aux2[1][10])</td></tr>
+<tr><td class="h"><a id="L249">249</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">unless $DEBUG</td></tr>
+<tr><td class="h"><a id="L252">252</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
+<tr><td class="h"><a id="L269">269</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">if (not defined $aux3[2]) { }</td></tr>
+<tr><td class="h"><a id="L275">275</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">unless (defined $aux3[1][3])</td></tr>
+<tr><td class="h"><a id="L280">280</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">unless (defined $aux3[1][10])</td></tr>
+<tr><td class="h"><a id="L329">329</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">unless $DEBUG</td></tr>
+<tr><td class="h"><a id="L332">332</a></td><td class="c0">0</td><td class="c0">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
+<tr><td class="h"><a id="L382">382</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">unless $DEBUG</td></tr>
+<tr><td class="h"><a id="L385">385</a></td><td class="c0">50</td><td class="c3">T</td><td class="c0">F</td><td class="s">if ($response-&gt;is_success) { }</td></tr>
 </table>
 </body>
 </html>

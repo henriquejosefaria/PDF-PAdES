@@ -27,14 +27,16 @@ http://www.pjcj.net
 <tr><th>line</th><th>stmt</th><th>bran</th><th>cond</th><th>sub</th><th>time</th><th>code</th></tr>
 <tr><td class="h">1</td><td></td><td></td><td></td><td></td><td></td><td class="s">package signpdf_config;</td></tr>
 <tr><td class="h">2</td><td></td><td></td><td></td><td></td><td></td><td class="s">#Ficheiro de configura&Atilde;&sect;&Atilde;&pound;o.</td></tr>
-<tr><td class="h">3</td><td colspan="6"></td></tr><tr><td class="h">4</td><td colspan="6"></td></tr><tr><td class="h">5</td><td></td><td></td><td></td><td></td><td></td><td class="s"># ApplicationId da entidade, fornecida pela AMA</td></tr>
-<tr><td class="h">6</td><td></td><td></td><td></td><td></td><td></td><td class="s">#</td></tr>
-<tr><td class="h">7</td><td></td><td></td><td></td><td></td><td></td><td class="s">$APPLICATION_ID = &#39;b826359c-06f8-425e-8ec3-50a97a418916&#39;;</td></tr>
-<tr><td class="h">8</td><td colspan="6"></td></tr><tr><td class="h">9</td><td></td><td></td><td></td><td></td><td></td><td class="s"># Servidor WebApp DSS - REST services</td></tr>
-<tr><td class="h">10</td><td colspan="6"></td></tr><tr><td class="h">11</td><td></td><td></td><td></td><td></td><td></td><td class="s">$DSS_REST = &#39;https://dss.devisefutures.com/services/rest/signature/one-document&#39;;</td></tr>
-<tr><td class="h">12</td><td colspan="6"></td></tr><tr><td class="h">13</td><td colspan="6"></td></tr><tr><td class="h">14</td><td></td><td></td><td></td><td></td><td></td><td class="s">############## N&Atilde;&#131;O ALTERAR A PARTIR DAQUI ####################</td></tr>
-<tr><td class="h">15</td><td colspan="6"></td></tr><tr><td class="h">16</td><td colspan="6"></td></tr><tr><td class="h">17</td><td></td><td></td><td></td><td></td><td></td><td class="s">sub get_appid{</td></tr>
-<tr><td class="h">18 - 27</td><td colspan="5"></td><td class="s"><pre>=head
+<tr><td class="h">3</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L3">1</a></div></td><td><div>5</div><div>5</div><div>36</div></td><td class="s">use warnings;</td></tr>
+<tr><td class="h">4</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L4">1</a></div></td><td><div>4</div><div>1</div><div>57</div></td><td class="s">use strict;</td></tr>
+<tr><td class="h">5</td><td colspan="6"></td></tr><tr><td class="h">6</td><td></td><td></td><td></td><td></td><td></td><td class="s"># ApplicationId da entidade, fornecida pela AMA</td></tr>
+<tr><td class="h">7</td><td></td><td></td><td></td><td></td><td></td><td class="s">#</td></tr>
+<tr><td class="h">8</td><td></td><td></td><td></td><td></td><td></td><td class="s">my $APPLICATION_ID = &#39;b826359c-06f8-425e-8ec3-50a97a418916&#39;;</td></tr>
+<tr><td class="h">9</td><td colspan="6"></td></tr><tr><td class="h">10</td><td></td><td></td><td></td><td></td><td></td><td class="s"># Servidor WebApp DSS - REST services</td></tr>
+<tr><td class="h">11</td><td colspan="6"></td></tr><tr><td class="h">12</td><td></td><td></td><td></td><td></td><td></td><td class="s">my $DSS_REST = &#39;https://dss.devisefutures.com/services/rest/signature/one-document&#39;;</td></tr>
+<tr><td class="h">13</td><td colspan="6"></td></tr><tr><td class="h">14</td><td colspan="6"></td></tr><tr><td class="h">15</td><td></td><td></td><td></td><td></td><td></td><td class="s">############## N&Atilde;&#131;O ALTERAR A PARTIR DAQUI ####################</td></tr>
+<tr><td class="h">16</td><td colspan="6"></td></tr><tr><td class="h">17</td><td colspan="6"></td></tr><tr><td class="h">18</td><td></td><td></td><td></td><td></td><td></td><td class="s">sub get_appid{</td></tr>
+<tr><td class="h">19 - 28</td><td colspan="5"></td><td class="s"><pre>=head
 &nbsp;&nbsp;&nbsp;&nbsp;Devolve APPLICATION_ID (fornecida pela AMA).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Returns
@@ -44,11 +46,11 @@ http://www.pjcj.net
 
 &nbsp;&nbsp;&nbsp;&nbsp;&quot;&quot;&quot;
 =cut</pre></td></tr>
-<tr><td class="h">28</td><td><div class="c3">12</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L28">12</a></div></td><td><div>69</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;return $APPLICATION_ID;</td></tr>
-<tr><td class="h">29</td><td></td><td></td><td></td><td></td><td></td><td class="s">}</td></tr>
-<tr><td class="h">30</td><td colspan="6"></td></tr><tr><td class="h">31</td><td></td><td></td><td></td><td></td><td></td><td class="s"># Fun&Atilde;&sect;&Atilde;&pound;o que devolve o URL topo dos webservice do DSS</td></tr>
-<tr><td class="h">32</td><td></td><td></td><td></td><td></td><td></td><td class="s">sub get_rest{</td></tr>
-<tr><td class="h">33 - 42</td><td colspan="5"></td><td class="s"><pre>=head
+<tr><td class="h">29</td><td><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L29">1</a></div></td><td><div>3</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;return $APPLICATION_ID;</td></tr>
+<tr><td class="h">30</td><td></td><td></td><td></td><td></td><td></td><td class="s">}</td></tr>
+<tr><td class="h">31</td><td colspan="6"></td></tr><tr><td class="h">32</td><td></td><td></td><td></td><td></td><td></td><td class="s"># Fun&Atilde;&sect;&Atilde;&pound;o que devolve o URL topo dos webservice do DSS</td></tr>
+<tr><td class="h">33</td><td></td><td></td><td></td><td></td><td></td><td class="s">sub get_rest{</td></tr>
+<tr><td class="h">34 - 43</td><td colspan="5"></td><td class="s"><pre>=head
 &nbsp;&nbsp;&nbsp;&nbsp;&quot;&quot;&quot;Devolve URL do servidor dos webservice do DSS.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Returns
@@ -58,9 +60,9 @@ http://www.pjcj.net
 
 &nbsp;&nbsp;&nbsp;&nbsp;&quot;&quot;&quot;
 =cut</pre></td></tr>
-<tr><td class="h">43</td><td><div class="c3">15</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L43">15</a></div></td><td><div>524</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;return $DSS_REST;</td></tr>
-<tr><td class="h">44</td><td></td><td></td><td></td><td></td><td></td><td class="s">}</td></tr>
-<tr><td class="h">45</td><td colspan="6"></td></tr><tr><td class="h">46</td><td></td><td></td><td></td><td></td><td></td><td class="s">1;</td></tr>
+<tr><td class="h">44</td><td><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="signpdf_config-pm--subroutine.html#L44">1</a></div></td><td><div>5</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;return $DSS_REST;</td></tr>
+<tr><td class="h">45</td><td></td><td></td><td></td><td></td><td></td><td class="s">}</td></tr>
+<tr><td class="h">46</td><td colspan="6"></td></tr><tr><td class="h">47</td><td></td><td></td><td></td><td></td><td></td><td class="s">1;</td></tr>
 </table>
 </body>
 </html>
